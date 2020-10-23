@@ -2,20 +2,22 @@
 
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"",	"cpmon",	1,	8},
-	{"",	"music",	0,	7},
-	{"",	"pacpackages",	300,	6},
-	{"", 	"mailbox",	0,	5},
-	{"",	"freemem",	5,	4},
-	{ "",	"pingbar",	2,	3},
-	{"",	"volume",	0,	2},
-	{"",	"clock",	60,	1},
+	{"",	"cpmon",	1,	9},
+	{"",	"music",	0,	8},
+	{"",	"pacpackages",	300,	7},
+	{"", 	"mailbox",	0,	6},
+	{"",	"freemem",	5,	5},
+	{ "",	"pingbar",	2,	4},
+	{"",	"volume",	0,	3},
+	{"",	"clock",	60,	2},
+	{"",	"exitd",	0,	1},
+
 
 
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static char *delim = " ";
+static char *delim = " ⏽ ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
