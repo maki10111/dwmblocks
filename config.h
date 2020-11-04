@@ -3,13 +3,16 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",		"music",			0,			9},
+	{"",		"weather",			60,			13},
+	{"",		"news",				0,			12},
 	{"",		"cpmon",			0,			8},
 	{"",		"pacpackages",			300,			7},
-	{"", 		"mailbox",			60,			6},
+	{"", 		"mailbox",			200,			6},
 	{"",		"freemem",			5,			5},
 	{"",		"blueteeth",			0,			10},
 	{"",		"pingbar",			2,			4},
 	{"",		"volume",			0,			3},
+	{"",		"battery",			60,			11},
 	{"",		"clock",			60,			2},
 	{"",		"exitd",			0,			1},
 
@@ -18,6 +21,7 @@ static const Block blocks[] = {
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
+//static char *delim = " ";
 static char *delim = " ⏽ ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
