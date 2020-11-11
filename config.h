@@ -8,6 +8,7 @@ static const Block blocks[] = {
 	{"",		"cpmon",			0,			8},
 	{"",		"pacpackages",			300,			7},
 	{"", 		"mailbox",			200,			6},
+	{"",		"disk",				300,			14},
 	{"",		"freemem",			5,			5},
 	{"",		"blueteeth",			0,			10},
 	{"",		"pingbar",			2,			4},
