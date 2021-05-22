@@ -3,18 +3,18 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",		"music",			0,			9},
-	{"",		"weather",			60,			13},
+	{"",		"weather",			600,			13},
 	{"",		"news",				0,			12},
-	{"",		"cpmon",			0,			8},
+	{"",		"cpmon",			2,			8},
 	{"",		"pacpackages",			300,			7},
 	{"", 		"mailbox",			200,			6},
-	{"",		"disk",				300,			14},
+	{"",		"disk /home",			300,			14},
 	{"",		"freemem",			5,			5},
 	{"",		"blueteeth",			0,			10},
 	{"",		"pingbar",			2,			4},
 	{"",		"volume",			0,			3},
 	{"",		"battery",			60,			11},
-	{"",		"clock",			60,			2},
+	{"",		"clock",			0,			2},
 	{"",		"exitd",			0,			1},
 
 
